@@ -1,23 +1,13 @@
-h1:hover {
-  color: aquamarine;
+header img {
+ width: 33%;
 }
-a:visited {
+/* more specific takes precedence*/
+a {
   text-decoration: none;
 }
-header {
-  text align: center;
-  width: 75%;
-  margin: auto;
+nav a {
+  text-decoration: line-through;
 }
-article {
-  width: 60%;
-  margin: auto;
-}
-p::first-letter {
-  font-size: 1.5em;
-}
-footer {
-  border: 2px solid blue;
-  border-radius: 25px;
-  padding: 20px;
-}
+/* more recent takes precedence */
+p { color: magenta; }
+p { color: orange; }
